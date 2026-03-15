@@ -1,0 +1,148 @@
+{
+    "brand": "OKX",
+    "brandFull": "OKX官方网址",
+    "hero": {
+        "badgeText": "OKX 爱好者技术站 · 全球节点汇总",
+        "defaultCta": "立即获取"
+    },
+    "domain": "https://okxpc.com",
+    "tagline": "本站点作为独立的 Web3 技术宣发节点，致力于聚合由官方实时释出的高可用客户端下载资源、桌面连通性排查方案及全网加密资产节点的访问向导。",
+    "primaryCta": {
+        "label": "访问 OKX 官网",
+        "href": "/zhuce"
+    },
+    "nav": [
+        {
+            "label": "首页",
+            "href": "/"
+        },
+        {
+            "label": "下载中心",
+            "href": "/xiazai",
+            "children": [
+                {
+                    "label": "OKX 电脑版",
+                    "href": "/xiazai"
+                },
+                {
+                    "label": "OKX 手机版下载",
+                    "href": "/app"
+                },
+                {
+                    "label": "苹果版",
+                    "href": "/app/ios"
+                },
+                {
+                    "label": "安卓版",
+                    "href": "/app/anzhuo"
+                }
+            ]
+        },
+        {
+            "label": "快速登录",
+            "href": "/web",
+            "children": [
+                {
+                    "label": "网页版入口",
+                    "href": "/web"
+                },
+                {
+                    "label": "去中心化钱包",
+                    "href": "/qianbao"
+                },
+                {
+                    "label": "OKB 体系",
+                    "href": "/okb"
+                }
+            ]
+        },
+        {
+            "label": "入门指南",
+            "href": "/zhuce"
+        },
+        {
+            "label": "技术教程区",
+            "href": "/jiaochen"
+        },
+        {
+            "label": "关于平台",
+            "href": "/jiaoyisuo"
+        }
+    ],
+    "footerNav": {
+        "product": [
+            {
+                "name": "OKX 下载中心",
+                "href": "/xiazai"
+            },
+            {
+                "name": "OKX 网页版登录",
+                "href": "/web"
+            },
+            {
+                "name": "OKX 手机版",
+                "href": "/app"
+            }
+        ],
+        "support": [
+            {
+                "name": "节点说明",
+                "href": "/jiaoyisuo"
+            },
+            {
+                "name": "免责条款",
+                "href": "/privacy"
+            },
+            {
+                "name": "技术文档",
+                "href": "/jiaochen"
+            }
+        ],
+        "disclaimer": "本节点系网络中自愿建设的技术资料索引站点，旨在传递公开透明的区块链交易应用获取方式。网站所呈现的任何注册入口、版本包体指纹等均指向官方公共分流资产，且绝不牵涉平台方实际的资产风控与清算。本网站不享有相关金融业务主体及品牌商标的确权。"
+    },
+    "quickLinks": {
+        "android": {
+            "href": "/app/anzhuo",
+            "label": "OKX 安卓版",
+            "sub": "官方安装包 · 安全分发"
+        },
+        "ios": {
+            "href": "/app/ios",
+            "label": "OKX 苹果版",
+            "sub": "海外账号 · 安装向导"
+        },
+        "downloadCenter": {
+            "href": "/xiazai"
+        },
+        "web": {
+            "href": "/web",
+            "label": "网页版登录",
+            "sub": "全球节点 · 极速直达"
+        },
+        "pc": {
+            "href": "/xiazai",
+            "label": "OKX 电脑版",
+            "sub": "全新桌面交易终端"
+        },
+        "wallet": {
+            "href": "/qianbao",
+            "label": "去中心化钱包",
+            "sub": "链上入口 · 安全隔离"
+        },
+        "register": {
+            "href": "/zhuce",
+            "label": "开启注册",
+            "sub": "首存奖励 · 盲盒福利"
+        },
+        "okb": {
+            "href": "/okb",
+            "label": "OKB 体系",
+            "sub": "平台核心 · 网络体系"
+        },
+        "about": {
+            "href": "/jiaoyisuo",
+            "label": "了解 OKX",
+            "sub": "技术架构 · 安全验证"
+        }
+    }
+}

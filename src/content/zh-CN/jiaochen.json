@@ -1,0 +1,94 @@
+{
+    "navLabel": "技术教程区",
+    "metadata": {
+        "title": "OKX教程与使用指南：{year}专业用户桌面端操作手册与网络配置向导",
+        "description": "OKX技术节点汇总的全景操作指南。从桌面客户端的最佳实践安装、多终端网络连通性优化到机构级功能的深度应用，为您打通数字资产交易的技术全链路。"
+    },
+    "hero": {
+        "title": "OKX桌面端使用向导与技术资源库",
+        "subtitle": "环境部署配置 | 连接故障排除 | 高级功能解析 | 技术节点出品",
+        "cta": "浏览各类教程"
+    },
+    "layoutType": "tutorial-hub",
+    "tutorialCategories": [
+        {
+            "name": "桌面端应用与配置指引",
+            "items": [
+                {
+                    "title": "OKX桌面端分发源验证方法",
+                    "href": "/diannaoban-xiazai-guanwang"
+                },
+                {
+                    "title": "联络官方技术团队的正确路径",
+                    "href": "/diannaoban-kefu-dianhua"
+                },
+                {
+                    "title": "新设备节点专属激励领取全解",
+                    "href": "/diannaoban-youhui-huodong"
+                },
+                {
+                    "title": "建立机构级安全标准的专业账户",
+                    "href": "/diannaoban-zhuce-zhanghao"
+                },
+                {
+                    "title": "核心模块应用：多屏与自动化策略",
+                    "href": "/diannaoban-gongneng-jieshao"
+                },
+                {
+                    "title": "无风险实战：模拟盘环境接入测试",
+                    "href": "/diannaoban-mianfei-shiyong"
+                }
+            ]
+        },
+        {
+            "name": "本地化部署体系与架构更新",
+            "items": [
+                {
+                    "title": "桌面版安装前的环境预检与操作",
+                    "href": "/ouyi-pc-xiazai-anzhuang"
+                },
+                {
+                    "title": "规避网络阻断获取原装版的实战策略",
+                    "href": "/ouyi-pc-xiazai-jiaocheng"
+                },
+                {
+                    "title": "多路径获取：直连、镜像与校验方法",
+                    "href": "/ouyi-pc-xiazai-fangfa"
+                },
+                {
+                    "title": "剖析桌面软件的底层隔离机制",
+                    "href": "/ouyi-pc-xiazai-ruanjian"
+                },
+                {
+                    "title": "官方安装包直链提取与数字签名验证",
+                    "href": "/ouyi-pc-xiazai-lianjie"
+                },
+                {
+                    "title": "保持最佳交易性能：最新版迭代解读",
+                    "href": "/ouyi-pc-xiazai-zuixinban"
+                },
+                {
+                    "title": "母语级体验：中文界面配置与视觉优化",
+                    "href": "/ouyi-pc-xiazai-zhongwenban"
+                }
+            ]
+        },
+        {
+            "name": "进阶网络诊断排查与系统维护",
+            "items": [
+                {
+                    "title": "网络阻断与连接超时的定向诊断恢复",
+                    "href": "/ouyi-dabukai"
+                },
+                {
+                    "title": "基于故障场景的系统化问题排查汇编",
+                    "href": "/diannaoban-changjian-wenti"
+                },
+                {
+                    "title": "官方安全补丁与架构升级变动日志分析",
+                    "href": "/diannaoban-gengxin-rizhi"
+                }
+            ]
+        }
+    ]
+}
