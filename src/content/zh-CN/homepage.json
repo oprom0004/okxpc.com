@@ -9,7 +9,7 @@
         "description": "为 OKX 全球用户提供稳定的桌面端及移动端加速访问入口。"
     },
     "hero": {
-        "title": "OKX中文版电脑端与APP客户端全球分发中心",
+        "title": "OKX中文版PC与APP客户端全球分发中心",
         "subtitle": "<a href='/xiazai'>OKX 电脑客户端</a> · <a href='/web'>网页版登录入口</a> · <a href='/应用'>手机版下载中心</a> · <a href='/qianbao'>网页版3 钱包节点</a> | {year} 全球官方线路汇总",
         "cta": "获取 OKX 客户端",
         "useGateway": true
