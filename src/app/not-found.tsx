@@ -23,9 +23,6 @@ export default function NotFound() {
                     >
                         返回OKX主页
                     </Link>
-                    <Link href="/app" className="text-sm font-semibold text-white hover:text-blue-400">
-                        下载专业客户端 <span aria-hidden="true">&rarr;</span>
-                    </Link>
                 </div>
             </div>
         </div>
