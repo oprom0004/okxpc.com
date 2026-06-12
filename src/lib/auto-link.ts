@@ -14,7 +14,7 @@ const LINK_MAP: Record<string, string> = {
   "技术教程": "/jiaochen",
   "安装向导": "/ouyi-pc-xiazai-anzhuang",
   "最新版本": "/ouyi-pc-xiazai-zuixinban",
-  "官方网关": "/diannaoban-xiazai-guanwang",
+  "访问网关": "/diannaoban-xiazai-guanwang",
 };
 
 /**

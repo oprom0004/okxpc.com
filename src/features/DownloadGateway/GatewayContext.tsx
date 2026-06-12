@@ -20,13 +20,17 @@ const CTA_CLASS_KEYWORDS = [
     'shadow-xl',
 ];
 
-function shouldOpenGateway(target: HTMLElement) {
+function getElementClassName(element: Element) {
+    return element.getAttribute('class') || '';
+}
+
+function shouldOpenGateway(target: Element) {
     const clickable = target.closest('a,button') as HTMLElement | null;
     if (!clickable) return false;
     if (clickable.getAttribute('data-cta') === 'false') return false;
     if (clickable.getAttribute('data-cta') === 'true') return true;
 
-    const className = clickable.className || '';
+    const className = getElementClassName(clickable);
     const href = clickable instanceof HTMLAnchorElement ? clickable.getAttribute('href') || '' : '';
 
     const hasCtaClass = CTA_CLASS_KEYWORDS.some((k) => className.includes(k));
@@ -44,8 +48,8 @@ function CtaClickInterceptor() {
     React.useEffect(() => {
         const onClickCapture = (event: MouseEvent) => {
             if (event.defaultPrevented) return;
-            const target = event.target as HTMLElement | null;
-            if (!target) return;
+            const target = event.target;
+            if (!(target instanceof Element)) return;
             if (!shouldOpenGateway(target)) return;
             event.preventDefault();
             event.stopPropagation();

@@ -55,10 +55,10 @@ export default function Header() {
             }}
         >
             <div className="max-w-7xl mx-auto px-5 h-16 flex items-center justify-between">
-                {/* Logo */}
+                {/* Site mark */}
                 <Link href="/" className="flex items-center gap-2.5" onClick={closeMenu}>
                     <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
-                        <Image src="/logo.png" alt={`${brand} Logo`} width={28} height={28} className="object-contain invert opacity-90" />
+                        <Image src="/logo.png" alt={`${brand} 图标`} width={28} height={28} className="object-contain opacity-95" />
                     </div>
                     <span className="font-bold text-lg text-white tracking-tight">{brand}</span>
                 </Link>
@@ -122,7 +122,7 @@ export default function Header() {
                 {/* Desktop Actions */}
                 <div className="hidden md:flex items-center gap-3">
                     <GatewayTrigger className="text-sm font-medium text-slate-400 hover:text-white transition-colors flex items-center gap-1">
-                        访问官网 <span className="text-blue-400">→</span>
+                        访问网站 <span className="text-blue-400">→</span>
                     </GatewayTrigger>
                     <GatewayTrigger
                         className="btn-primary px-5 py-2 rounded-lg text-sm font-semibold"
@@ -199,7 +199,7 @@ export default function Header() {
                         )}
                         <div className="pt-4 mt-2 grid grid-cols-2 gap-3" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
                             <GatewayTrigger className="py-3 rounded-xl text-center text-sm font-medium text-white transition-colors [background:rgba(37,99,235,0.15)] [border:1px_solid_rgba(37,99,235,0.3)]">
-                                访问官网
+                                访问网站
                             </GatewayTrigger>
                             <GatewayTrigger
                                 className="btn-primary py-3 rounded-xl text-center text-sm font-semibold text-white"

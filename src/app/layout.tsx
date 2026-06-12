@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   title: {
-    template: '%s - OKX官方网址',
-    default: 'OKX下载中心 | OKX电脑版/APP/桌面端官方下载网关',
+    template: '%s - OKX访问地址',
+    default: 'OKX下载中心 | OKX电脑版/APP/桌面端下载入口',
   },
   description: 'OKX Web3节点入口。致力于为您提供最新OKX桌面客户端获取策略、手机端原装包校验流程及网页版连通性指南，保障全平台安全同步。',
   openGraph: {
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     url: 'https://okxpc.com',
     siteName: 'OKX 桌面技术节点',
     title: 'OKX桌面端分发枢纽 | 提供全面下载及连接解决方案',
-    description: '专业的OKX桌面与客户端接入向导。直达官方分发节点，保障安全连通性。',
+    description: '专业的OKX桌面与客户端接入向导。直达分发节点，保障安全连通性。',
   },
   icons: {
     icon: '/favicon.ico',
-    apple: '/apple-icon.png',
+    apple: '/apple-touch-icon.png',
   }
 };
 
@@ -50,7 +50,7 @@ export default function RootLayout({
           <BackToTop />
           <MobileStickyFooter>
             <GatewayTrigger className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg flex items-center justify-center transition-colors shadow-lg">
-              访问 OKX 官网
+              访问 OKX 网站
             </GatewayTrigger>
           </MobileStickyFooter>
         </Providers>

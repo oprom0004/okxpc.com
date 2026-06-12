@@ -19,7 +19,7 @@
                     "href": "/diannaoban-xiazai-guanwang"
                 },
                 {
-                    "title": "联络官方技术团队的正确路径",
+                    "title": "联络平台技术团队的正确路径",
                     "href": "/diannaoban-kefu-dianhua"
                 },
                 {
@@ -60,7 +60,7 @@
                     "href": "/ouyi-pc-xiazai-ruanjian"
                 },
                 {
-                    "title": "官方安装包直链提取与数字签名验证",
+                    "title": "安装包直链提取与数字签名验证",
                     "href": "/ouyi-pc-xiazai-lianjie"
                 },
                 {
@@ -85,7 +85,7 @@
                     "href": "/diannaoban-changjian-wenti"
                 },
                 {
-                    "title": "官方安全补丁与架构升级变动日志分析",
+                    "title": "平台安全补丁与架构升级变动日志分析",
                     "href": "/diannaoban-gengxin-rizhi"
                 }
             ]
