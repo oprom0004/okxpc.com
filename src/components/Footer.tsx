@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className="space-y-6">
                         <Link href="/" className="flex items-center gap-2.5">
                             <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
-                                <Image src="/logo.png?v=3" alt={`${brand} 图标`} width={28} height={28} className="object-contain opacity-95" />
+                                <Image src="/logo.png?v=4" alt={`${brand} 图标`} width={28} height={28} className="object-contain opacity-95" />
                             </div>
                             <span className="text-white font-bold text-lg tracking-tight">{brandFull}</span>
                         </Link>
