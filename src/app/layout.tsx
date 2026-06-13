@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     description: '专业的OKX桌面与客户端接入向导。直达分发节点，保障安全连通性。',
   },
   icons: {
-    icon: '/favicon.ico?v=4',
-    apple: '/apple-touch-icon.png?v=4',
+    icon: '/favicon.ico?v=5',
+    apple: '/apple-touch-icon.png?v=5',
   }
 };
 
