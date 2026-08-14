@@ -1,15 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useConfig } from "../context/ConfigContext";
 
 interface FooterProps {
   locale?: 'zh' | 'hant';
 }
 
 export default function Footer({ locale = 'zh' }: FooterProps) {
-  const { config } = useConfig();
-  const isHant = locale === 'hant';
+    const isHant = locale === 'hant';
   const prefix = isHant ? "/hant" : "";
 
   return (
